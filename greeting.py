@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from datetime import datetime
 
 def greet():
@@ -8,7 +9,10 @@ def greet():
         message = 'Hello'
     else:
         message = 'Good evening'
+def greet(name):
+    message = 'Hello, ' + name + '-san!'
+>>>>>>> main
     print(message)
 
 
-greet()
+greet('Inoue')
