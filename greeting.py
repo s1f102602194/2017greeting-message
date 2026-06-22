@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 from datetime import datetime
 
 def greet():
@@ -8,10 +8,10 @@ def greet():
     elif hour <= 17:
         message = 'Hello'
     else:
-        message = 'Good evening'
+        message = 'Good evening
 def greet(name):
     message = 'Hello, ' + name + '-san!'
->>>>>>> main
+ main
     print(message)
 
 
